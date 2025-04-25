@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sameed Mahmood - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6f5ea;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 800px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: #2e8b57;
+      text-align: center;
+    }
+
+    .skills ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: #006400;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sameed Mahmood</h1>
+    <p>Full Stack Web Developer</p>
+  </header>
+
+  <div class="section">
+    <h2>Introduction</h2>
+    <p>Welcome to my portfolio! I am a passionate full stack web developer with a strong foundation in both front-end and back-end technologies. I enjoy creating dynamic and responsive web applications.</p>
+  </div>
+
+  <div class="section skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Blender</li>
+      <li>Web Development</li>
+      <li>AutoCAD</li>
+      <li>Autodesk Inventor</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Contact Information</h2>
+    <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:sameed@example.com">sameed@example.com</a>.</p>
+  </div>
+
+  <footer>
+    © 2025 Sameed Mahmood. All rights reserved.
+  </footer>
+</body>
+</html>
